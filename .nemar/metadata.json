@@ -1,23 +1,46 @@
 {
   "version": "2.0",
-  "dataset_id": "on004852",
-  "source": "openneuro",
-  "source_id": "ds004852",
+  "pipeline_stage": "validated",
   "title": "InsurgentCivilian",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Tony Johnson": {},
     "Stephen Gordon": {},
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004852.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004852",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004852",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "82.8 MB (3 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "46b069faed11c2ed366a828ef405d85a8cad558d46acd11e1eff7abdf9b310e5"
 }
