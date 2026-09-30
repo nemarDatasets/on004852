@@ -22,17 +22,17 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004852",
+      "identifier": "https://nemar.org/dataset/on004852",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "82.8 MB (3 files)"
+    "78.93 MB (3 files)"
   ],
   "formats": [
     ".fdt",
@@ -41,6 +41,18 @@
     ".set",
     ".tsv",
     ".yml"
+  ],
+  "description": "InsurgentCivilian is an EEG dataset with HED (Hierarchical Event Descriptors) annotations, contributed by Johnson, Gordon, Touryan, and King. The README describes it only as a placeholder, so detailed information on the task, participants, and acquisition is not provided.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Hierarchical Event Descriptors"
+    },
+    {
+      "term": "BIDS"
+    }
   ],
   "source_hash": "46b069faed11c2ed366a828ef405d85a8cad558d46acd11e1eff7abdf9b310e5"
 }
